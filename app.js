@@ -39,7 +39,7 @@ function adicionarAmigo() {
             const novoItem = document.createElement('li');                  //cria um novo elemento "li"
             novoItem.textContent = amigos[posicaoArray];                    //adiciona o nome do array ao elemento "li"
             listaAmigos.appendChild(novoItem);                              //adiciona o conteúdo do elemento "li" na lista
-            posicaoArray--;
+            posicaoArray--;                                                 //retorna o ponteiro do array (decremento)
         }
     }
 }
@@ -47,28 +47,24 @@ function adicionarAmigo() {
 function sortearAmigo() {
     if (amigos.length === 0) {                                              //verifica se array está vazio
         alert('ERRO!!! Não há amigos cadastrados. Cadastre amigos.');       //mensagem caso array esteja vazio
-        return;
+        return;                                                             //retorna para "corrigir a falha" (cadastrar amigos)
     }
-    let posicaoArrayAmigos = gerarNumeroAleatorio();                        
-    exibirAmigoSorteado(posicaoArrayAmigos);
+    let posicaoArrayAmigos = gerarNumeroAleatorio();                        //chama a geração de número aleatório (posição correspondente ao amigo sorteado)
+    exibirAmigoSorteado(posicaoArrayAmigos);                                //chama a função de exibir o nome do amigo correspondente ao número aleatório (posição no array)
 }
 
 function gerarNumeroAleatorio() {
-    let qtdeAmigos = amigos.length;
-    let numeroEscolhido = Math.floor(Math.random() * qtdeAmigos - 1);
+    let qtdeAmigos = (amigos.length -1);                                    //cria variável com quantidade de amigos cadastrados (o "-1" é por causa da posição ZERO no array)
+    let numeroEscolhido = Math.floor(Math.random() * qtdeAmigos);           //escolhe um nº aleatório (Math.floor = parseInt)
 
-    if (numeroEscolhido < 0) {
-        numeroEscolhido = 0
-    }
-
-    console.log(numeroEscolhido)
-    return numeroEscolhido;
+    console.log(numeroEscolhido)                                            //apresenta o nº escolhido no Console
+    return numeroEscolhido;                                                 //retorna o nº escolhido (posição no array)
 }
 
 // Função para exibir o amigo sorteado
 function exibirAmigoSorteado(index) {
-    let amigoSorteado = document.getElementById('resultado');
-    amigoSorteado.innerHTML = `<li>${amigos[index]}</li>`; 
+    let amigoSorteado = document.getElementById('resultado');               //vincula variável ao objeto RESULTADO na tela HTML
+    amigoSorteado.innerHTML = `<li>${amigos[index]}</li>`;                  //apresenta o nome correspondente à posição no array (nº aleatório)
 }
 
 
