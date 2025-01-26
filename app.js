@@ -26,6 +26,7 @@ function adicionarAmigo() {
             alert('Este nome já consta na lista');                          //avisa usuário (pop-up em tela) que o nome já consta no array
             return                                                          //sai da função
         }
+
         amigos.push(novoAmigo);                                             //adiciona o novo nome no array
         console.log(amigos);                                                //mostra o conteúdo do array no Console
         nomeDoAmigo.value = '';                                             //limpa o campo de nome do amigo
