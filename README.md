@@ -28,9 +28,10 @@ License: [Alura - Projeto ONE]
 <p>Contudo, algumas melhorias podem ser aplicadas, de maneira a gerar uma lista entre os amigos cadastrados (e não apenas 1 nome), permitindo assim que seja utilizada em vários eventos/momentos.</p>
 
 # funcionalidades-e-demonstração-da-aplicação
-<p>Esta ferramenta possui uma única tela, onde destacamos:</p>
+![Apresentação da Tela](assets/tela.jpg)
+<p></p>
+<p>Esta ferramenta possui uma única tela (ver acima), onde destacamos:</p>
 <p>A: Campo para ser informado/digitado cada um dos nomes das pessoas indicadas.</p>
 <p>B: Botão destinado à verificação e inserção do nome informado/digitado, na lista, caso o mesmo não tenha sido informado anteriormente.</p>
 <p>C: Botão destinado à realização (de maneira aleatória) do "sorteio" do nome indicado para ser seu AMIGO SECRETO (se pressionado mais de uma vez, poderão ser observados resultados de maneira aleatória).</p>
 <p></p>
-![Apresentação da Tela](assets/tela.jpg)
