@@ -21,7 +21,7 @@
 <p>O objetivo desta ferramenta consiste no "Sorteio Aleatório" de um dos nomes previamente cadastrados, elegendo-o como seu Amigo Secreto.</p>
 
 # Status
-<p>Este projeto encontra-se CONCLUÍDO, tomando como base as orientações fornecidas através dos cards via Trello.</p>
+<p>Este projeto encontra-se CONCLUÍDO, tomando como base as orientações fornecidas através dos cards via Trello e está disponível para uso no portal do VERCEL, através do link https://vercel.com/rrodrigues-ftcs-projects/chalenge-amigo-secreto</p>
 <p>Contudo, algumas melhorias podem ser aplicadas, de maneira a gerar uma lista entre os amigos cadastrados (e não apenas 1 nome), permitindo assim que seja utilizada em vários eventos/momentos.</p>
 
 # Funcionalidades
