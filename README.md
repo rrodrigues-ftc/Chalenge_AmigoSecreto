@@ -45,7 +45,7 @@
 
 # Desenvolvimento
 <p>Ferramenta desenvolvida por Reinaldo Rodrigues (https://github.com/rrodrigues-ftc).</p>
-<p>Apaixonado por tecnologia e entusiasta da automação de processos, que adora desafios.</p>
+<p>Apaixonado por tecnologia e entusiasta da automação de processos, e que adora desafios.</p>
 
 # Tecnologias
 <p>No repositório serão encontrados arquivos correspondentes a HTML, CSS e JavaScript.</p>
