@@ -4,9 +4,9 @@
 * [Descrição do Projeto](#Descrição)
 * [Status do Projeto](#Status)
 * [Funcionalidades e Demonstração da Aplicação](#Funcionalidades)
-* [Cadastrando seus Amigos](#Cadastrando-nomes)
+* [Cadastrando seus Amigos](#Cadastrando)
 * [Desenvolvimento](#Desenvolvimento)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Tecnologias utilizadas](#Tecnologias)
 * [Licença](#Licença)
 * [Conclusão](#Conclusão)
 
@@ -33,22 +33,26 @@
 <p>C: Botão destinado à realização (de maneira aleatória) do "sorteio" do nome indicado para ser seu AMIGO SECRETO (se pressionado mais de uma vez, poderão ser observados resultados de maneira aleatória).</p>
 <p></p>
 
-# Cadastrando-nomes
+# Cadastrando
 ![Tela de Cadastro](assets/telacadastro.jpg)
 <p></p>
 <p>Utilizando o campo "A" indicado na tela anterior, digite/informe um nome e em seguida clique no botão [Adicionar].</p>
 <p>O nome será listado logo abaixo do campo "A".</p>
+<p></p>
+<p>Após clicar no botão [Adicionar] o nome será apresetnado conforme exemplificado na tela abaixo e o campo estará disponível para o próximo nome.</p>
+
+![Tela de Cadastro](assets/telaproximocadastro.jpg)
 
 # Desenvolvimento
 <p>Ferramenta desenvolvida por Reinaldo Rodrigues (https://github.com/rrodrigues-ftc).</p>
 <p>Apaixonado por tecnologia e entusiasta da automação de processos, que adora desafios.</p>
 
-# tecnologias-utilizadas
+# Tecnologias
 <p>No repositório serão encontrados arquivos correspondentes a HTML, CSS e JavaScript.</p>
 
 # Licença
-![Licença 1](assets/AluraOracle.jpg)
 ![Licença 2](assets/one.jpg)
+![Licença 1](assets/AluraOracle.jpg)
 
 # Conclusão
 <p>Jan/2025</p> 
