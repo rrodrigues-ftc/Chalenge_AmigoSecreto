@@ -1,33 +1,30 @@
 # Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Apresentação](#Apresentação)
+* [Descrição do Projeto](#Descrição)
+* [Status do Projeto](#Status)
+* [Funcionalidades e Demonstração da Aplicação](#Funcionalidades)
+* [Cadastrando seus Amigos](#Cadastrando-nomes)
+* [Desenvolvimento](#Desenvolvimento)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
+* [Licença](#Licença)
+* [Conclusão](#Conclusão)
 
 
-License: [Alura - Projeto ONE]
-
-#Título-e-Imagem-de-capa
+# Apresentação
 ![Apresentação Resumida](assets/Read-me.jpg)
 
-# descrição-do-projeto
+# Descrição
 <p>Projeto criado em Jan/2025, como fruto de aprendizado em programação JavaScript disponibilizado pelo Projeto ONE (Oracle + Alura).</p>
 <p>Esta ferramenta demonstra lógica de programação com a utilização de função de números aleatórios, cadastramento de nomes em array e "sorteio" de um dos nomes cadastrados</p>
 <p></p>
 <p>O objetivo desta ferramenta consiste no "Sorteio Aleatório" de um dos nomes previamente cadastrados, elegendo-o como seu Amigo Secreto.</p>
 
-# status-do-Projeto
+# Status
 <p>Este projeto encontra-se CONCLUÍDO, tomando como base as orientações fornecidas através dos cards via Trello.</p>
 <p>Contudo, algumas melhorias podem ser aplicadas, de maneira a gerar uma lista entre os amigos cadastrados (e não apenas 1 nome), permitindo assim que seja utilizada em vários eventos/momentos.</p>
 
-# funcionalidades-e-demonstração-da-aplicação
+# Funcionalidades
 ![Apresentação da Tela](assets/tela.jpg)
 <p></p>
 <p>Esta ferramenta possui uma única tela (ver acima), onde destacamos:</p>
@@ -35,3 +32,23 @@ License: [Alura - Projeto ONE]
 <p>B: Botão destinado à verificação e inserção do nome informado/digitado, na lista, caso o mesmo não tenha sido informado anteriormente.</p>
 <p>C: Botão destinado à realização (de maneira aleatória) do "sorteio" do nome indicado para ser seu AMIGO SECRETO (se pressionado mais de uma vez, poderão ser observados resultados de maneira aleatória).</p>
 <p></p>
+
+# Cadastrando-nomes
+![Tela de Cadastro](assets/telacadastro.jpg)
+<p></p>
+<p>Utilizando o campo "A" indicado na tela anterior, digite/informe um nome e em seguida clique no botão [Adicionar].</p>
+<p>O nome será listado logo abaixo do campo "A".</p>
+
+# Desenvolvimento
+<p>Ferramenta desenvolvida por Reinaldo Rodrigues (https://github.com/rrodrigues-ftc).</p>
+<p>Apaixonado por tecnologia e entusiasta da automação de processos, que adora desafios.</p>
+
+# tecnologias-utilizadas
+<p>No repositório serão encontrados arquivos correspondentes a HTML, CSS e JavaScript.</p>
+
+# Licença
+![Licença 1](assets/AluraOracle.jpg)
+![Licença 2](assets/one.jpg)
+
+# Conclusão
+<p>Jan/2025</p> 
