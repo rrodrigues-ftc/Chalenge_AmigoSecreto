@@ -2,4 +2,4 @@
 
 <h1 align="center"> O Seu Amigo Secreto </h1>
 
-![Apresentação Resumida](assets\Read-me.jpg)
+![Apresentação Resumida](assets/Read-me.jpg)
